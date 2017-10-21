@@ -7,11 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ZLIndexViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
+{
+    UINavigationController *naviController;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
+/** 引用控制器 */
+@property(nonatomic, strong)  ZLIndexViewController* viewController;
 
 @end
 
