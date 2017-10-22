@@ -23,6 +23,10 @@
 		F96BE5DE1F9C414E001E4461 /* ZLAttachmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F96BE5DC1F9C414E001E4461 /* ZLAttachmentViewController.xib */; };
 		F96BE5E21F9C553B001E4461 /* ZLSnapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F96BE5E01F9C553A001E4461 /* ZLSnapViewController.m */; };
 		F96BE5E31F9C553B001E4461 /* ZLSnapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F96BE5E11F9C553A001E4461 /* ZLSnapViewController.xib */; };
+		F96BE5E71F9C8609001E4461 /* ZLPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F96BE5E51F9C8609001E4461 /* ZLPushViewController.m */; };
+		F96BE5E81F9C8609001E4461 /* ZLPushViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F96BE5E61F9C8609001E4461 /* ZLPushViewController.xib */; };
+		F96BE5EC1F9C8E93001E4461 /* ZLPropertiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F96BE5EA1F9C8E93001E4461 /* ZLPropertiesViewController.m */; };
+		F96BE5ED1F9C8E93001E4461 /* ZLPropertiesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F96BE5EB1F9C8E93001E4461 /* ZLPropertiesViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +54,12 @@
 		F96BE5DF1F9C553A001E4461 /* ZLSnapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLSnapViewController.h; sourceTree = "<group>"; };
 		F96BE5E01F9C553A001E4461 /* ZLSnapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLSnapViewController.m; sourceTree = "<group>"; };
 		F96BE5E11F9C553A001E4461 /* ZLSnapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZLSnapViewController.xib; sourceTree = "<group>"; };
+		F96BE5E41F9C8609001E4461 /* ZLPushViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLPushViewController.h; sourceTree = "<group>"; };
+		F96BE5E51F9C8609001E4461 /* ZLPushViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLPushViewController.m; sourceTree = "<group>"; };
+		F96BE5E61F9C8609001E4461 /* ZLPushViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZLPushViewController.xib; sourceTree = "<group>"; };
+		F96BE5E91F9C8E93001E4461 /* ZLPropertiesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLPropertiesViewController.h; sourceTree = "<group>"; };
+		F96BE5EA1F9C8E93001E4461 /* ZLPropertiesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLPropertiesViewController.m; sourceTree = "<group>"; };
+		F96BE5EB1F9C8E93001E4461 /* ZLPropertiesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZLPropertiesViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,12 @@
 				F96BE5DF1F9C553A001E4461 /* ZLSnapViewController.h */,
 				F96BE5E01F9C553A001E4461 /* ZLSnapViewController.m */,
 				F96BE5E11F9C553A001E4461 /* ZLSnapViewController.xib */,
+				F96BE5E41F9C8609001E4461 /* ZLPushViewController.h */,
+				F96BE5E51F9C8609001E4461 /* ZLPushViewController.m */,
+				F96BE5E61F9C8609001E4461 /* ZLPushViewController.xib */,
+				F96BE5E91F9C8E93001E4461 /* ZLPropertiesViewController.h */,
+				F96BE5EA1F9C8E93001E4461 /* ZLPropertiesViewController.m */,
+				F96BE5EB1F9C8E93001E4461 /* ZLPropertiesViewController.xib */,
 				F96BE5B71F9B9D5C001E4461 /* Info.plist */,
 				F96BE5D01F9C2EDA001E4461 /* SupportFile */,
 			);
@@ -181,7 +197,9 @@
 				F96BE5E31F9C553B001E4461 /* ZLSnapViewController.xib in Resources */,
 				F96BE5B61F9B9D5C001E4461 /* LaunchScreen.storyboard in Resources */,
 				F96BE5B31F9B9D5C001E4461 /* Assets.xcassets in Resources */,
+				F96BE5ED1F9C8E93001E4461 /* ZLPropertiesViewController.xib in Resources */,
 				F96BE5C31F9B9EB5001E4461 /* ZLIndexViewController.xib in Resources */,
+				F96BE5E81F9C8609001E4461 /* ZLPushViewController.xib in Resources */,
 				F96BE5DE1F9C414E001E4461 /* ZLAttachmentViewController.xib in Resources */,
 				F96BE5CF1F9C2DC1001E4461 /* ZLGravityViewController.xib in Resources */,
 				F96BE5D91F9C3A12001E4461 /* ZLCollisionViewController.xib in Resources */,
@@ -196,11 +214,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F96BE5E21F9C553B001E4461 /* ZLSnapViewController.m in Sources */,
+				F96BE5EC1F9C8E93001E4461 /* ZLPropertiesViewController.m in Sources */,
 				F96BE5B91F9B9D5C001E4461 /* main.m in Sources */,
 				F96BE5AB1F9B9D5C001E4461 /* AppDelegate.m in Sources */,
 				F96BE5C21F9B9EB5001E4461 /* ZLIndexViewController.m in Sources */,
 				F96BE5DD1F9C414E001E4461 /* ZLAttachmentViewController.m in Sources */,
 				F96BE5D81F9C3A12001E4461 /* ZLCollisionViewController.m in Sources */,
+				F96BE5E71F9C8609001E4461 /* ZLPushViewController.m in Sources */,
 				F96BE5CE1F9C2DC1001E4461 /* ZLGravityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

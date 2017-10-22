@@ -11,6 +11,8 @@
 #import "ZLCollisionViewController.h"
 #import "ZLAttachmentViewController.h"
 #import "ZLSnapViewController.h"
+#import "ZLPushViewController.h"
+#import "ZLPropertiesViewController.h"
 
 @interface ZLIndexViewController ()
 
@@ -52,6 +54,12 @@
         case 3:
             cell.textLabel.text = @"snap";
             break;
+        case 4:
+            cell.textLabel.text = @"push";
+            break;
+        case 5:
+            cell.textLabel.text = @"properties";
+            break;
         default:
             break;
     }
@@ -72,6 +80,12 @@
             break;
         case 3:
             viewController = [[ZLSnapViewController alloc] initWithNibName:@"ZLSnapViewController" bundle:nil];
+            break;
+        case 4:
+            viewController = [[ZLPushViewController alloc] initWithNibName:@"ZLPushViewController" bundle:nil];
+            break;
+        case 5:
+            viewController = [[ZLPropertiesViewController alloc] initWithNibName:@"ZLPropertiesViewController" bundle:nil];
             break;
         default:
             break;
