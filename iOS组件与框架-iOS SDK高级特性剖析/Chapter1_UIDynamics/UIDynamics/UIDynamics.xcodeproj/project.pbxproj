@@ -13,6 +13,14 @@
 		F96BE5B91F9B9D5C001E4461 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F96BE5B81F9B9D5C001E4461 /* main.m */; };
 		F96BE5C21F9B9EB5001E4461 /* ZLIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F96BE5C01F9B9EB5001E4461 /* ZLIndexViewController.m */; };
 		F96BE5C31F9B9EB5001E4461 /* ZLIndexViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F96BE5C11F9B9EB5001E4461 /* ZLIndexViewController.xib */; };
+		F96BE5CE1F9C2DC1001E4461 /* ZLGravityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F96BE5CC1F9C2DC1001E4461 /* ZLGravityViewController.m */; };
+		F96BE5CF1F9C2DC1001E4461 /* ZLGravityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F96BE5CD1F9C2DC1001E4461 /* ZLGravityViewController.xib */; };
+		F96BE5D31F9C34A4001E4461 /* DF.png in Resources */ = {isa = PBXBuildFile; fileRef = F96BE5D11F9C2F09001E4461 /* DF.png */; };
+		F96BE5D41F9C34A4001E4461 /* Emp.png in Resources */ = {isa = PBXBuildFile; fileRef = F96BE5D21F9C2F09001E4461 /* Emp.png */; };
+		F96BE5D81F9C3A12001E4461 /* ZLCollisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F96BE5D61F9C3A12001E4461 /* ZLCollisionViewController.m */; };
+		F96BE5D91F9C3A12001E4461 /* ZLCollisionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F96BE5D71F9C3A12001E4461 /* ZLCollisionViewController.xib */; };
+		F96BE5DD1F9C414E001E4461 /* ZLAttachmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F96BE5DB1F9C414E001E4461 /* ZLAttachmentViewController.m */; };
+		F96BE5DE1F9C414E001E4461 /* ZLAttachmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F96BE5DC1F9C414E001E4461 /* ZLAttachmentViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,17 @@
 		F96BE5BF1F9B9EB5001E4461 /* ZLIndexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLIndexViewController.h; sourceTree = "<group>"; };
 		F96BE5C01F9B9EB5001E4461 /* ZLIndexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLIndexViewController.m; sourceTree = "<group>"; };
 		F96BE5C11F9B9EB5001E4461 /* ZLIndexViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZLIndexViewController.xib; sourceTree = "<group>"; };
+		F96BE5C91F9C2DAB001E4461 /* ZLGravityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLGravityViewController.h; sourceTree = "<group>"; };
+		F96BE5CC1F9C2DC1001E4461 /* ZLGravityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLGravityViewController.m; sourceTree = "<group>"; };
+		F96BE5CD1F9C2DC1001E4461 /* ZLGravityViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZLGravityViewController.xib; sourceTree = "<group>"; };
+		F96BE5D11F9C2F09001E4461 /* DF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DF.png; sourceTree = "<group>"; };
+		F96BE5D21F9C2F09001E4461 /* Emp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Emp.png; sourceTree = "<group>"; };
+		F96BE5D51F9C3A12001E4461 /* ZLCollisionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLCollisionViewController.h; sourceTree = "<group>"; };
+		F96BE5D61F9C3A12001E4461 /* ZLCollisionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLCollisionViewController.m; sourceTree = "<group>"; };
+		F96BE5D71F9C3A12001E4461 /* ZLCollisionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZLCollisionViewController.xib; sourceTree = "<group>"; };
+		F96BE5DA1F9C414E001E4461 /* ZLAttachmentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLAttachmentViewController.h; sourceTree = "<group>"; };
+		F96BE5DB1F9C414E001E4461 /* ZLAttachmentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLAttachmentViewController.m; sourceTree = "<group>"; };
+		F96BE5DC1F9C414E001E4461 /* ZLAttachmentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZLAttachmentViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,12 +82,31 @@
 				F96BE5BF1F9B9EB5001E4461 /* ZLIndexViewController.h */,
 				F96BE5C01F9B9EB5001E4461 /* ZLIndexViewController.m */,
 				F96BE5C11F9B9EB5001E4461 /* ZLIndexViewController.xib */,
-				F96BE5B21F9B9D5C001E4461 /* Assets.xcassets */,
-				F96BE5B41F9B9D5C001E4461 /* LaunchScreen.storyboard */,
+				F96BE5C91F9C2DAB001E4461 /* ZLGravityViewController.h */,
+				F96BE5CC1F9C2DC1001E4461 /* ZLGravityViewController.m */,
+				F96BE5CD1F9C2DC1001E4461 /* ZLGravityViewController.xib */,
+				F96BE5D51F9C3A12001E4461 /* ZLCollisionViewController.h */,
+				F96BE5D61F9C3A12001E4461 /* ZLCollisionViewController.m */,
+				F96BE5D71F9C3A12001E4461 /* ZLCollisionViewController.xib */,
+				F96BE5DA1F9C414E001E4461 /* ZLAttachmentViewController.h */,
+				F96BE5DB1F9C414E001E4461 /* ZLAttachmentViewController.m */,
+				F96BE5DC1F9C414E001E4461 /* ZLAttachmentViewController.xib */,
 				F96BE5B71F9B9D5C001E4461 /* Info.plist */,
-				F96BE5B81F9B9D5C001E4461 /* main.m */,
+				F96BE5D01F9C2EDA001E4461 /* SupportFile */,
 			);
 			path = UIDynamics;
+			sourceTree = "<group>";
+		};
+		F96BE5D01F9C2EDA001E4461 /* SupportFile */ = {
+			isa = PBXGroup;
+			children = (
+				F96BE5B21F9B9D5C001E4461 /* Assets.xcassets */,
+				F96BE5B41F9B9D5C001E4461 /* LaunchScreen.storyboard */,
+				F96BE5B81F9B9D5C001E4461 /* main.m */,
+				F96BE5D11F9C2F09001E4461 /* DF.png */,
+				F96BE5D21F9C2F09001E4461 /* Emp.png */,
+			);
+			path = SupportFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,8 +135,9 @@
 		F96BE59E1F9B9D5C001E4461 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZL;
 				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = cuit;
+				ORGANIZATIONNAME = dminfo;
 				TargetAttributes = {
 					F96BE5A51F9B9D5C001E4461 = {
 						CreatedOnToolsVersion = 9.0;
@@ -129,9 +168,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F96BE5D31F9C34A4001E4461 /* DF.png in Resources */,
+				F96BE5D41F9C34A4001E4461 /* Emp.png in Resources */,
 				F96BE5B61F9B9D5C001E4461 /* LaunchScreen.storyboard in Resources */,
 				F96BE5B31F9B9D5C001E4461 /* Assets.xcassets in Resources */,
 				F96BE5C31F9B9EB5001E4461 /* ZLIndexViewController.xib in Resources */,
+				F96BE5DE1F9C414E001E4461 /* ZLAttachmentViewController.xib in Resources */,
+				F96BE5CF1F9C2DC1001E4461 /* ZLGravityViewController.xib in Resources */,
+				F96BE5D91F9C3A12001E4461 /* ZLCollisionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +189,9 @@
 				F96BE5B91F9B9D5C001E4461 /* main.m in Sources */,
 				F96BE5AB1F9B9D5C001E4461 /* AppDelegate.m in Sources */,
 				F96BE5C21F9B9EB5001E4461 /* ZLIndexViewController.m in Sources */,
+				F96BE5DD1F9C414E001E4461 /* ZLAttachmentViewController.m in Sources */,
+				F96BE5D81F9C3A12001E4461 /* ZLCollisionViewController.m in Sources */,
+				F96BE5CE1F9C2DC1001E4461 /* ZLGravityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

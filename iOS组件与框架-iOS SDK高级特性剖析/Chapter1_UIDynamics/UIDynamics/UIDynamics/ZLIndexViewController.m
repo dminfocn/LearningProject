@@ -7,6 +7,9 @@
 //
 
 #import "ZLIndexViewController.h"
+#import "ZLGravityViewController.h"
+#import "ZLCollisionViewController.h"
+#import "ZLAttachmentViewController.h"
 
 @interface ZLIndexViewController ()
 
@@ -39,19 +42,33 @@
         case 0:
             cell.textLabel.text = @"Gravity";
             break;
+        case 1:
+            cell.textLabel.text = @"Collision";
+            break;
+        case 2:
+            cell.textLabel.text = @"attachement";
+            break;
         default:
             break;
     }
     return cell;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    UIViewController *viewController = nil;
     switch (indexPath.row) {
         case 0:
             //跳转
+            viewController = [[ZLGravityViewController alloc] initWithNibName:@"ZLGravityViewController" bundle:nil];
             break;
-            
+        case 1:
+            viewController = [[ZLCollisionViewController alloc] initWithNibName:@"ZLCollisionViewController" bundle:nil];
+            break;
+        case 2:
+            viewController = [[ZLAttachmentViewController alloc] initWithNibName:@"ZLAttachmentViewController" bundle:nil];
+            break;
         default:
             break;
     }
+    [self.navigationController pushViewController:viewController animated:YES];
 }
 @end
