@@ -27,7 +27,7 @@
     UIGravityBehavior *gravityBehavior = [[UIGravityBehavior alloc] initWithItems:@[frogImageView]];
     gravityBehavior.gravityDirection = CGVectorMake(0.0, 0.1);
     //角度
-    gravityBehavior.angle = 90;
+//    gravityBehavior.angle = 0;
     //速度
     gravityBehavior.magnitude = 0.1;
     [animator addBehavior:gravityBehavior];

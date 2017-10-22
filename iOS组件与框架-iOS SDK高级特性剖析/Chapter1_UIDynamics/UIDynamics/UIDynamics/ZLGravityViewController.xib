@@ -20,12 +20,24 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Emp.png" translatesAutoresizingMaskIntoConstraints="NO" id="pkM-23-uut">
-                    <rect key="frame" x="127" y="58" width="120" height="120"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5xU-4x-hpy">
+                    <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Emp.png" translatesAutoresizingMaskIntoConstraints="NO" id="pkM-23-uut">
+                            <rect key="frame" x="60" y="8" width="120" height="120"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="5xU-4x-hpy" firstAttribute="bottom" secondItem="Q5M-cg-NOt" secondAttribute="bottom" id="69B-eH-my3"/>
+                <constraint firstItem="5xU-4x-hpy" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="24" id="AW1-Rt-TTI"/>
+                <constraint firstItem="5xU-4x-hpy" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="Pqt-NE-an9"/>
+                <constraint firstItem="5xU-4x-hpy" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="a4e-6t-QW9"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
             <point key="canvasLocation" x="6.5" y="-81.5"/>
         </view>

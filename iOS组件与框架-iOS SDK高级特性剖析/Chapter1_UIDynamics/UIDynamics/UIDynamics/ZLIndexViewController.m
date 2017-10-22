@@ -10,6 +10,7 @@
 #import "ZLGravityViewController.h"
 #import "ZLCollisionViewController.h"
 #import "ZLAttachmentViewController.h"
+#import "ZLSnapViewController.h"
 
 @interface ZLIndexViewController ()
 
@@ -48,6 +49,9 @@
         case 2:
             cell.textLabel.text = @"attachement";
             break;
+        case 3:
+            cell.textLabel.text = @"snap";
+            break;
         default:
             break;
     }
@@ -65,6 +69,9 @@
             break;
         case 2:
             viewController = [[ZLAttachmentViewController alloc] initWithNibName:@"ZLAttachmentViewController" bundle:nil];
+            break;
+        case 3:
+            viewController = [[ZLSnapViewController alloc] initWithNibName:@"ZLSnapViewController" bundle:nil];
             break;
         default:
             break;

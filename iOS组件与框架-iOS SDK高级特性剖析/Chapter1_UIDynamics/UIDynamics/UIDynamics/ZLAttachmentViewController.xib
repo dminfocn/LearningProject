@@ -21,24 +21,36 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Emp.png" translatesAutoresizingMaskIntoConstraints="NO" id="x5t-0h-7L0">
-                    <rect key="frame" x="218" y="91" width="86" height="86"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <gestureRecognizers/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DF.png" translatesAutoresizingMaskIntoConstraints="NO" id="G0m-yQ-QFE">
-                    <rect key="frame" x="63" y="212" width="81" height="80"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <gestureRecognizers/>
-                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0qB-wz-OV3">
+                    <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DF.png" translatesAutoresizingMaskIntoConstraints="NO" id="G0m-yQ-QFE">
+                            <rect key="frame" x="28" y="102" width="81" height="80"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <gestureRecognizers/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Emp.png" translatesAutoresizingMaskIntoConstraints="NO" id="x5t-0h-7L0">
+                            <rect key="frame" x="242" y="27" width="86" height="86"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <gestureRecognizers/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <gestureRecognizers/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="0qB-wz-OV3" secondAttribute="bottom" id="Dai-hj-z5E"/>
+                <constraint firstItem="0qB-wz-OV3" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="Mex-U1-vX8"/>
+                <constraint firstItem="0qB-wz-OV3" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="24" id="T1W-Ki-wLt"/>
+                <constraint firstItem="0qB-wz-OV3" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="Vuj-Kc-HTN"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
             <connections>
                 <outletCollection property="gestureRecognizers" destination="bvC-bs-T64" appends="YES" id="UZd-8L-TuG"/>
             </connections>
-            <point key="canvasLocation" x="-686" y="225"/>
+            <point key="canvasLocation" x="-686.5" y="224.5"/>
         </view>
         <panGestureRecognizer minimumNumberOfTouches="1" id="bvC-bs-T64">
             <connections>
