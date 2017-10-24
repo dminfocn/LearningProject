@@ -8,27 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		F951A46E1F9CC38B008FEA71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F951A46D1F9CC38B008FEA71 /* AppDelegate.m */; };
-		F951A4711F9CC38B008FEA71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F951A4701F9CC38B008FEA71 /* ViewController.m */; };
-		F951A4741F9CC38B008FEA71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F951A4721F9CC38B008FEA71 /* Main.storyboard */; };
 		F951A4761F9CC38B008FEA71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F951A4751F9CC38B008FEA71 /* Assets.xcassets */; };
 		F951A4791F9CC38B008FEA71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F951A4771F9CC38B008FEA71 /* LaunchScreen.storyboard */; };
 		F951A47C1F9CC38B008FEA71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F951A47B1F9CC38B008FEA71 /* main.m */; };
 		F951A4841F9CD783008FEA71 /* ZLLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F951A4831F9CD783008FEA71 /* ZLLocationManager.m */; };
+		F9DCFB281F9E2CAF00F1C748 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9DCFB271F9E2CAF00F1C748 /* MainStoryboard.storyboard */; };
+		F9DCFB2B1F9E2CCB00F1C748 /* ZLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DCFB2A1F9E2CCB00F1C748 /* ZLMainViewController.m */; };
+		F9DCFB2F1F9F801500F1C748 /* ZLFavoritePlace.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DCFB2E1F9F801500F1C748 /* ZLFavoritePlace.m */; };
+		F9DCFB331F9F915800F1C748 /* FavoritePlaces.xcdatamodel in Resources */ = {isa = PBXBuildFile; fileRef = F9DCFB311F9F903E00F1C748 /* FavoritePlaces.xcdatamodel */; };
+		F9DCFB341F9F915800F1C748 /* FavoritePlaces.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = F9DCFB321F9F914300F1C748 /* FavoritePlaces.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F951A4691F9CC38B008FEA71 /* FavoritePlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavoritePlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F951A46C1F9CC38B008FEA71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F951A46D1F9CC38B008FEA71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F951A46F1F9CC38B008FEA71 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F951A4701F9CC38B008FEA71 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F951A4731F9CC38B008FEA71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F951A4751F9CC38B008FEA71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F951A4781F9CC38B008FEA71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F951A47A1F9CC38B008FEA71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F951A47B1F9CC38B008FEA71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F951A4821F9CD783008FEA71 /* ZLLocationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLLocationManager.h; sourceTree = "<group>"; };
 		F951A4831F9CD783008FEA71 /* ZLLocationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLLocationManager.m; sourceTree = "<group>"; };
+		F9DCFB271F9E2CAF00F1C748 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F9DCFB291F9E2CCB00F1C748 /* ZLMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLMainViewController.h; sourceTree = "<group>"; };
+		F9DCFB2A1F9E2CCB00F1C748 /* ZLMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLMainViewController.m; sourceTree = "<group>"; };
+		F9DCFB2C1F9F762100F1C748 /* DMNS.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DMNS.gpx; sourceTree = "<group>"; };
+		F9DCFB2D1F9F801500F1C748 /* ZLFavoritePlace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLFavoritePlace.h; sourceTree = "<group>"; };
+		F9DCFB2E1F9F801500F1C748 /* ZLFavoritePlace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLFavoritePlace.m; sourceTree = "<group>"; };
+		F9DCFB301F9F8E4700F1C748 /* FavoritePlaces-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FavoritePlaces-Prefix.pch"; sourceTree = "<group>"; };
+		F9DCFB311F9F903E00F1C748 /* FavoritePlaces.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FavoritePlaces.xcdatamodel; sourceTree = "<group>"; };
+		F9DCFB321F9F914300F1C748 /* FavoritePlaces.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = FavoritePlaces.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,15 +72,21 @@
 			children = (
 				F951A46C1F9CC38B008FEA71 /* AppDelegate.h */,
 				F951A46D1F9CC38B008FEA71 /* AppDelegate.m */,
-				F951A46F1F9CC38B008FEA71 /* ViewController.h */,
-				F951A4701F9CC38B008FEA71 /* ViewController.m */,
-				F951A4721F9CC38B008FEA71 /* Main.storyboard */,
 				F951A4821F9CD783008FEA71 /* ZLLocationManager.h */,
 				F951A4831F9CD783008FEA71 /* ZLLocationManager.m */,
+				F9DCFB291F9E2CCB00F1C748 /* ZLMainViewController.h */,
+				F9DCFB2A1F9E2CCB00F1C748 /* ZLMainViewController.m */,
+				F9DCFB2D1F9F801500F1C748 /* ZLFavoritePlace.h */,
+				F9DCFB2E1F9F801500F1C748 /* ZLFavoritePlace.m */,
+				F9DCFB271F9E2CAF00F1C748 /* MainStoryboard.storyboard */,
 				F951A4751F9CC38B008FEA71 /* Assets.xcassets */,
 				F951A4771F9CC38B008FEA71 /* LaunchScreen.storyboard */,
+				F9DCFB311F9F903E00F1C748 /* FavoritePlaces.xcdatamodel */,
+				F9DCFB321F9F914300F1C748 /* FavoritePlaces.sqlite */,
+				F9DCFB2C1F9F762100F1C748 /* DMNS.gpx */,
 				F951A47A1F9CC38B008FEA71 /* Info.plist */,
 				F951A47B1F9CC38B008FEA71 /* main.m */,
+				F9DCFB301F9F8E4700F1C748 /* FavoritePlaces-Prefix.pch */,
 			);
 			path = FavoritePlaces;
 			sourceTree = "<group>";
@@ -135,9 +150,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9DCFB331F9F915800F1C748 /* FavoritePlaces.xcdatamodel in Resources */,
+				F9DCFB341F9F915800F1C748 /* FavoritePlaces.sqlite in Resources */,
+				F9DCFB281F9E2CAF00F1C748 /* MainStoryboard.storyboard in Resources */,
 				F951A4791F9CC38B008FEA71 /* LaunchScreen.storyboard in Resources */,
 				F951A4761F9CC38B008FEA71 /* Assets.xcassets in Resources */,
-				F951A4741F9CC38B008FEA71 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,23 +166,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F951A4841F9CD783008FEA71 /* ZLLocationManager.m in Sources */,
-				F951A4711F9CC38B008FEA71 /* ViewController.m in Sources */,
 				F951A47C1F9CC38B008FEA71 /* main.m in Sources */,
+				F9DCFB2F1F9F801500F1C748 /* ZLFavoritePlace.m in Sources */,
 				F951A46E1F9CC38B008FEA71 /* AppDelegate.m in Sources */,
+				F9DCFB2B1F9E2CCB00F1C748 /* ZLMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F951A4721F9CC38B008FEA71 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F951A4731F9CC38B008FEA71 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F951A4771F9CC38B008FEA71 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,11 +297,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A44T64982D;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FavoritePlaces/FavoritePlaces-Prefix.pch";
 				INFOPLIST_FILE = FavoritePlaces/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dminfo.FavoritePlaces.FavoritePlaces;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -301,11 +313,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A44T64982D;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FavoritePlaces/FavoritePlaces-Prefix.pch";
 				INFOPLIST_FILE = FavoritePlaces/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dminfo.FavoritePlaces.FavoritePlaces;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

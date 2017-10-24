@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gz1-V2-Oc3">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="mQD-Hp-GWD">
+            <objects>
+                <viewController id="gz1-V2-Oc3" customClass="ZLMainViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="x5h-gN-QP8">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="HIo-xc-XHk">
+                                <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                            </mapView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0k6-or-B6L">
+                                <rect key="frame" x="0.0" y="20" width="768" height="44"/>
+                                <items>
+                                    <navigationItem title="地图" id="jR0-Pw-g4m">
+                                        <barButtonItem key="rightBarButtonItem" style="plain" id="PF2-Yd-7gZ">
+                                            <segmentedControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="lEj-Sw-tsp">
+                                                <rect key="frame" x="557" y="6.5" width="191" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <segments>
+                                                    <segment title="map"/>
+                                                    <segment title="statelite"/>
+                                                    <segment title="hybrid"/>
+                                                </segments>
+                                                <connections>
+                                                    <action selector="mapTyeChanged:" destination="gz1-V2-Oc3" eventType="valueChanged" id="SY0-ta-Phf"/>
+                                                </connections>
+                                            </segmentedControl>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HIo-xc-XHk" firstAttribute="bottom" secondItem="keG-mf-io0" secondAttribute="bottom" id="9Ar-0o-ba2"/>
+                            <constraint firstItem="HIo-xc-XHk" firstAttribute="top" secondItem="0k6-or-B6L" secondAttribute="bottom" id="Dk7-Uc-01M"/>
+                            <constraint firstItem="0k6-or-B6L" firstAttribute="leading" secondItem="keG-mf-io0" secondAttribute="leading" id="Gw1-Dw-A3j"/>
+                            <constraint firstItem="HIo-xc-XHk" firstAttribute="leading" secondItem="keG-mf-io0" secondAttribute="leading" id="QhW-Bc-4iV"/>
+                            <constraint firstItem="0k6-or-B6L" firstAttribute="trailing" secondItem="keG-mf-io0" secondAttribute="trailing" id="Z6S-jX-Vk0"/>
+                            <constraint firstItem="0k6-or-B6L" firstAttribute="top" secondItem="keG-mf-io0" secondAttribute="top" id="dSF-Yj-FqD"/>
+                            <constraint firstItem="HIo-xc-XHk" firstAttribute="trailing" secondItem="keG-mf-io0" secondAttribute="trailing" id="hi1-B4-vKc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="keG-mf-io0"/>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="HIo-xc-XHk" id="bDk-sW-Lp2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A7l-9x-h5f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-302.34375" y="-16.40625"/>
+        </scene>
+    </scenes>
+</document>
