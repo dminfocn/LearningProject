@@ -11,13 +11,13 @@
 @implementation ZLFavoritePlace
 - (CLLocationCoordinate2D)coordinate {
     CLLocationDegrees lati = [[self valueForKeyPath:@"latitude"] doubleValue];
-    CLLocationDegrees lon = [[self valueForKeyPath:@"longtitude"] doubleValue];
+    CLLocationDegrees lon = [[self valueForKeyPath:@"longitude"] doubleValue];
     CLLocationCoordinate2D cooredinate = CLLocationCoordinate2DMake(lati, lon);
     return cooredinate;
 }
 - (void)setCoordinate:(CLLocationCoordinate2D)newCoordinate {
     [self setValue:@(newCoordinate.latitude) forKey:@"latitude"];
-    [self setValue:@(newCoordinate.longitude) forKey:@"longtitude"];
+    [self setValue:@(newCoordinate.longitude) forKey:@"longitude"];
 }
 
 - (NSString *)title {

@@ -11,9 +11,12 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+//描述数据模型的结构信息
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
+//数据持久层和内存对象模型的协调器
 @property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+//内存中 managedObject 对象的上下文
+@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
 
 - (void)saveContext;

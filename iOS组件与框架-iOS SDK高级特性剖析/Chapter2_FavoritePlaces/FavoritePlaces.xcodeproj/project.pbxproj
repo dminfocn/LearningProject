@@ -15,8 +15,8 @@
 		F9DCFB281F9E2CAF00F1C748 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9DCFB271F9E2CAF00F1C748 /* MainStoryboard.storyboard */; };
 		F9DCFB2B1F9E2CCB00F1C748 /* ZLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DCFB2A1F9E2CCB00F1C748 /* ZLMainViewController.m */; };
 		F9DCFB2F1F9F801500F1C748 /* ZLFavoritePlace.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DCFB2E1F9F801500F1C748 /* ZLFavoritePlace.m */; };
-		F9DCFB331F9F915800F1C748 /* FavoritePlaces.xcdatamodel in Resources */ = {isa = PBXBuildFile; fileRef = F9DCFB311F9F903E00F1C748 /* FavoritePlaces.xcdatamodel */; };
 		F9DCFB341F9F915800F1C748 /* FavoritePlaces.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = F9DCFB321F9F914300F1C748 /* FavoritePlaces.sqlite */; };
+		F9DCFB3A1FA2289C00F1C748 /* FavoritePlace.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9DCFB381FA2289C00F1C748 /* FavoritePlace.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,8 +36,8 @@
 		F9DCFB2D1F9F801500F1C748 /* ZLFavoritePlace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLFavoritePlace.h; sourceTree = "<group>"; };
 		F9DCFB2E1F9F801500F1C748 /* ZLFavoritePlace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLFavoritePlace.m; sourceTree = "<group>"; };
 		F9DCFB301F9F8E4700F1C748 /* FavoritePlaces-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FavoritePlaces-Prefix.pch"; sourceTree = "<group>"; };
-		F9DCFB311F9F903E00F1C748 /* FavoritePlaces.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FavoritePlaces.xcdatamodel; sourceTree = "<group>"; };
 		F9DCFB321F9F914300F1C748 /* FavoritePlaces.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = FavoritePlaces.sqlite; sourceTree = "<group>"; };
+		F9DCFB391FA2289C00F1C748 /* FavoritePlace.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FavoritePlace.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,11 +79,11 @@
 				F9DCFB2D1F9F801500F1C748 /* ZLFavoritePlace.h */,
 				F9DCFB2E1F9F801500F1C748 /* ZLFavoritePlace.m */,
 				F9DCFB271F9E2CAF00F1C748 /* MainStoryboard.storyboard */,
-				F951A4751F9CC38B008FEA71 /* Assets.xcassets */,
-				F951A4771F9CC38B008FEA71 /* LaunchScreen.storyboard */,
-				F9DCFB311F9F903E00F1C748 /* FavoritePlaces.xcdatamodel */,
+				F9DCFB381FA2289C00F1C748 /* FavoritePlace.xcdatamodeld */,
 				F9DCFB321F9F914300F1C748 /* FavoritePlaces.sqlite */,
 				F9DCFB2C1F9F762100F1C748 /* DMNS.gpx */,
+				F951A4751F9CC38B008FEA71 /* Assets.xcassets */,
+				F951A4771F9CC38B008FEA71 /* LaunchScreen.storyboard */,
 				F951A47A1F9CC38B008FEA71 /* Info.plist */,
 				F951A47B1F9CC38B008FEA71 /* main.m */,
 				F9DCFB301F9F8E4700F1C748 /* FavoritePlaces-Prefix.pch */,
@@ -150,7 +150,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9DCFB331F9F915800F1C748 /* FavoritePlaces.xcdatamodel in Resources */,
 				F9DCFB341F9F915800F1C748 /* FavoritePlaces.sqlite in Resources */,
 				F9DCFB281F9E2CAF00F1C748 /* MainStoryboard.storyboard in Resources */,
 				F951A4791F9CC38B008FEA71 /* LaunchScreen.storyboard in Resources */,
@@ -168,6 +167,7 @@
 				F951A4841F9CD783008FEA71 /* ZLLocationManager.m in Sources */,
 				F951A47C1F9CC38B008FEA71 /* main.m in Sources */,
 				F9DCFB2F1F9F801500F1C748 /* ZLFavoritePlace.m in Sources */,
+				F9DCFB3A1FA2289C00F1C748 /* FavoritePlace.xcdatamodeld in Sources */,
 				F951A46E1F9CC38B008FEA71 /* AppDelegate.m in Sources */,
 				F9DCFB2B1F9E2CCB00F1C748 /* ZLMainViewController.m in Sources */,
 			);
@@ -345,6 +345,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F9DCFB381FA2289C00F1C748 /* FavoritePlace.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F9DCFB391FA2289C00F1C748 /* FavoritePlace.xcdatamodel */,
+			);
+			currentVersion = F9DCFB391FA2289C00F1C748 /* FavoritePlace.xcdatamodel */;
+			path = FavoritePlace.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F951A4611F9CC38B008FEA71 /* Project object */;
 }

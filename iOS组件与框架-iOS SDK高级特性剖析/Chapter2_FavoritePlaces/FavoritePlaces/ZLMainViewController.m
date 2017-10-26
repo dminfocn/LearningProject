@@ -15,6 +15,9 @@
 
 // 缩放地图到合适的大小
 - (void)zoomMapToFitAnnotations;
+-(void)updateMapAnnotations;
+- (void)locationUpdated:(NSNotification *)notification;
+
 @end
 
 @implementation ZLMainViewController
@@ -76,14 +79,20 @@
 - (void)updateMapAnnotations {
     [self.mapView removeAnnotations:self.mapView.annotations];
     [self.mapView removeOverlays:self.mapView.overlays];
-    NSFetchRequest *placeRequest = [[NSFetchRequest alloc] initWithEntityName:@"FavoritePlace"];
+    
+    NSFetchRequest *placesRequest =
+    [[NSFetchRequest alloc] initWithEntityName:@"FavoritePlace"];
+    
     NSManagedObjectContext *moc = kAppDelegate.managedObjectContext;
+    
     NSError *error = nil;
-    NSArray *places = [moc executeRequest:placeRequest error:&error];
+    NSArray *places = [moc executeFetchRequest:placesRequest error:&error];
     if (error) {
-        NSLog(@"Core data fetch error:%@,%@",error, [error userInfo]);
+        NSLog(@"Core Data fetch error %@, %@", error,
+              [error userInfo]);
     }
-    [self.mapView addAnnotation:places];
+    
+    [self.mapView addAnnotations:places];
 }
 
 - (IBAction)mapTyeChanged:(id)segment {
